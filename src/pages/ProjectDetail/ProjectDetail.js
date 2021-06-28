@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 //ui
 import { makeStyles } from "@material-ui/core/styles";
@@ -45,11 +45,10 @@ function ProjectDetail() {
         }}
       >
         <Typography
-          variant="h5"
+          variant="h3"
           style={{
             fontFamily: "Open Sans",
             color: "#35a362",
-            fontSize: "2rem",
           }}
           gutterBottom
         >
@@ -61,6 +60,9 @@ function ProjectDetail() {
         <Grid item xs={3}>
           <Paper className={techName === "Tensorflow" ? classes.active : ""}>
             <Avatar
+              style={{
+                cursor: "pointer",
+              }}
               onClick={() => {
                 dispatch(techActions.setSelectedTech("Tensorflow"));
               }}
@@ -73,6 +75,9 @@ function ProjectDetail() {
         <Grid item xs={3}>
           <Paper className={techName === "AWS" ? classes.active : ""}>
             <Avatar
+              style={{
+                cursor: "pointer",
+              }}
               onClick={() => {
                 dispatch(techActions.setSelectedTech("AWS"));
               }}
@@ -85,6 +90,9 @@ function ProjectDetail() {
         <Grid item xs={3}>
           <Paper className={techName === "Flutter" ? classes.active : ""}>
             <Avatar
+              style={{
+                cursor: "pointer",
+              }}
               onClick={() => {
                 dispatch(techActions.setSelectedTech("Flutter"));
               }}
@@ -98,6 +106,9 @@ function ProjectDetail() {
         <Grid item xs={3}>
           <Paper className={techName === "Mern" ? classes.active : ""}>
             <Avatar
+              style={{
+                cursor: "pointer",
+              }}
               onClick={() => {
                 dispatch(techActions.setSelectedTech("Mern"));
               }}
@@ -109,7 +120,7 @@ function ProjectDetail() {
         </Grid>
       </Grid>
 
-      <TechDetail></TechDetail>
+      {techName && <TechDetail></TechDetail>}
     </Container>
   );
 }

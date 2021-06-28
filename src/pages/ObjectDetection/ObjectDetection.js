@@ -32,7 +32,8 @@ function ObjectDetection() {
             justifyContent: "center",
             alignItems: "center",
             marginTop: "30px",
-            color: "#2ca15b",
+            fontFamily: "Open Sans",
+            color: "#35a362",
           }}
           variant="h3"
         >

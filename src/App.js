@@ -17,6 +17,8 @@ import Header from "./components/Layout/Header";
 import ObjectDetection from "./pages/ObjectDetection/ObjectDetection";
 import Prediction from "./pages/Prediction/Prediction";
 import ProjectDetail from "./pages/ProjectDetail/ProjectDetail";
+import Segmentation from "./pages/Segmentation/Segmentation";
+
 import { leaveActions } from "./store/leave";
 
 function App() {
@@ -46,6 +48,9 @@ function App() {
           </Route>
           <Route path="/project-detail" exact>
             <ProjectDetail></ProjectDetail>
+          </Route>
+          <Route path="/segmentation" exact>
+            <Segmentation></Segmentation>
           </Route>
           <Redirect to="/"></Redirect>
         </Switch>

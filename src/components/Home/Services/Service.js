@@ -71,11 +71,10 @@ function Service() {
               image={segmentation}
               title="Segmentation Of tea leave and Disease"
               description="Segmentation of tea leaves and disease parts using the tensorflow model MASK RCNN, to find the disease area fo the leave"
-              link=""
+              link="/segmentation"
             ></ServiceCard>
           </Grid>
         </Grid>
-       
       </div>
     </Container>
   );
