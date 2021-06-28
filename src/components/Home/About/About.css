@@ -1,0 +1,34 @@
+.about {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    background-image: url('./group_146.jpg');
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: left bottom;
+    opacity: 1;
+
+}
+
+
+
+.about-txt {
+    font-family: calibri;
+    width: 600px;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+
+.about-txt h2 {
+    margin: 0px;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    color: #17d1ac;
+}
+
+.about-txt p {
+    font-size: 1rem;
+}

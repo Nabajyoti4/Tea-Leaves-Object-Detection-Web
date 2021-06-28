@@ -1,0 +1,52 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: "Open Sans";
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
+    z-index: 1;
+    /* background-image: url('images/undraw_cabin_hkfr.svg'); */
+    background-repeat: no-repeat;
+    background-size: 60px;
+
+
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu li a {
+    padding: 10px 15px;
+    color: #6c707c;
+    font-size: 16px;
+}
+
+.logo {
+
+    background-repeat: no-repeat;
+    background-size: 1px;
+}
+
+.menu li a:hover {
+    background-color: #292929;
+    color: #FFFFFF;
+}
