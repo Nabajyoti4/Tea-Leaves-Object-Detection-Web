@@ -14,7 +14,7 @@ const TECH_DATA = [
     heading: "Backbone of your Project",
     image: tensorImage,
     description:
-      "The approach we used for classification of disease in leaves is object detection , because simple image classification won't help much to identify multiple disease in a single leaf or image. And to make all these possible we used Tensorflow Model zoo 2 object detection models SSD mobilenet v2 and Faster RCNN ",
+      "The approach we used for classification of disease in leaves is object detection , because simple image classification won't help much to identify multiple disease in a single leaf or image. And to make all these possible we used Tensorflow Model zoo 2 object detection models SSD MobileNet V2 FPNLite 640x640 and Faster R-CNN ResNet50 V1 640x640 ",
   },
   {
     name: "Flutter",
