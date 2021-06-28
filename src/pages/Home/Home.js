@@ -12,6 +12,7 @@ import { Box } from "@material-ui/core";
 import EcoIcon from "@material-ui/icons/Eco";
 import Team from "../../components/Home/Team/Team";
 import Guide from "../../components/Home/Guide/Guide";
+import Achievment from "../../components/Home/Achievment/Achievment";
 
 function Home() {
   return (
@@ -40,6 +41,7 @@ function Home() {
       </Container>
       <About></About>
       <Service></Service>
+      <Achievment></Achievment>
       <Guide></Guide>
       <Team></Team>
     </React.Fragment>
