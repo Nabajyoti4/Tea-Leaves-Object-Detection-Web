@@ -107,7 +107,7 @@ function Prediction() {
     try {
       dispatch(leaveActions.setLoading(true));
       const response = await axios.post(
-        "http://ec2-3-95-170-192.compute-1.amazonaws.com:8080/uploadfile/",
+        "http://ec2-54-82-124-201.compute-1.amazonaws.com:8080/uploadfile/",
         bodyFormData,
         {
           headers: {
